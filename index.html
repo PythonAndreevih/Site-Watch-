@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <title>Main Wath</title>
+</head>
+<body>
+    <!--Hader start -->
+    <section class="header">
+        <header class="main_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 header-mobile">
+                        <div class="header_logo">
+                            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <div class="logo-text_mobile">
+                            <span>ROTOR WATCH</span>
+                        </div>
+                        <button type="button" class="burger">
+                            <img src="img/BURGER.svg" class="burger__normal" alt="">
+                            <img src="img/BATON_2.svg" class="burger__close" alt="">
+                        </button>
+                    </div>
+                    <div class="col-lg-6 header_navigation">
+                        <nav>
+                            <ul class="header_list">
+                                <li class="header-list_item">
+                                    <a href="favorites.html">Каталог</a>
+                                </li>
+                                <li class="header-list_item">
+                                    <a class="white" href="#!">Оценить</a>
+                                </li>
+                                <li class="header-list_item">
+                                    <a href="#!">Продать</a>
+                                </li>
+                                <li class="header-list_item">
+                                    <a href="#!">Под заказ</a>
+                                </li>
+                                <li class="header-list_item">
+                                    <a href="#!">Trade-in</a>
+                                </li>
+                                <li class="header-list_item">
+                                    <a href="#!">Контакты</a>
+                                </li>
+                            </ul> 
+                        </nav>
+                    </div>
+                    <div class="col-lg-4 column">
+                        <div class="header_social">
+                            <a href="https://vk.com/honey_dev"><img src="img/telega.svg" alt=""></a>
+                            <a href="https://vk.com/honey_dev"><img src="img/Watsap.svg" alt=""></a>
+                            <a href="https://vk.com/honey_dev"><img src="img/watsap_2.svg" alt=""></a>
+                            <a href="https://vk.com/honey_dev"><img src="img/instagramm.svg" alt=""></a>
+                        </div>
+                        <div class="header__number">
+                            <img src="img/Sobaka 1.svg" alt="">
+                            <a href="mailto:info@lomard-time.ru">info@lomard-time.ru</a>
+                            <img src="img/Telephone.svg" alt="">
+                            <a href="tel:+7 903 672 26 22">+7 903 672 26 22</a>
+                        </div>
+                        <div class="header_searh">
+                            <form action="">
+                                <img src="img/Lupa.svg" alt="">
+                                <input type="text" class="searh" placeholder="Поиск по сайту">
+                            </form>
+                            <div class="change_lenguage">
+                                <button type="button" class="button" >
+                                    <img src="img/EN.svg" class="button_ru" alt="" >
+                                    <img src="img/RU.svg" class="button_en" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--mobile menu -->
+                    <section class="header_menu-mobile">
+                        <div class="mobile-header_lupa">
+                            <form action="">
+                                <input type="text" class="mobile_searh" placeholder="Поиск по сайту">
+                                <img src="img/Lupa.svg" alt="">
+                            </form>
+                        </div>
+                        <div class="col-lg-6 mobile-header_navigation">
+                            <nav>
+                                <ul class="mobile-header_list">
+                                    <li class="mobile-header-list_item">
+                                        <a href="favorites.html">Каталог</a>
+                                    </li>
+                                    <li class="mobile-header-list_item">
+                                        <a class="white" href="#!">Оценить</a>
+                                    </li>
+                                    <li class="mobile-header-list_item">
+                                        <a href="#!">Продать</a>
+                                    </li>
+                                    <li class="mobile-header-list_item">
+                                        <a href="#!">Под заказ</a>
+                                    </li>
+                                    <li class="mobile-header-list_item">
+                                        <a href="#!">Trade-in</a>
+                                    </li>
+                                    <li class="mobile-header-list_item">
+                                        <a href="#!">Контакты</a>
+                                    </li>
+                                </ul> 
+                            </nav>
+                        </div>
+                        <div class="col-lg-4 mobile-column">
+                            <div class="mobile-header__number">
+                                <div class="number_1">
+                                    <img src="img/Sobaka 1.svg" alt="">
+                                    <a href="mailto:info@lomard-time.ru">info@lomard-time.ru</a>
+                                </div>
+                                <div class="number_2">
+                                    <img src="img/Telephone.svg" alt="">
+                                    <a href="tel:+7 903 672 26 22">+7 903 672 26 22</a>
+                                </div>
+                            </div>
+                            <div class="mobile-header_social">
+                                <a href="https://vk.com/honey_dev"><img src="img/telega.svg" alt=""></a>
+                                <a href="https://vk.com/honey_dev"><img src="img/Watsap.svg" alt=""></a>
+                                <a href="https://vk.com/honey_dev"><img src="img/watsap_2.svg" alt=""></a>
+                                <a href="https://vk.com/honey_dev"><img src="img/instagramm.svg" alt=""></a>
+                            </div>
+                            
+                            <div class="mobile-header_searh">
+                                
+                                <div class="change_lenguage">
+                                    <button type="button" class="button" >
+                                        <img src="img/EN.svg" class="button_ru" alt="" >
+                                        <img src="img/RU.svg" class="button_en" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    
+                </div>  
+            </div>
+        </header>
+    </section>
+    <section class="body">
+         <!-- Swiper -->
+         <div class="mobile_margin">
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/closeup-shot-hands-numbers-hour-marks-black-watch 1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/tri-gia-cua-virgil-abloh-tai-louis-vuiton-01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image.scale.1920.790.1543912269662.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/MV5BYzI2OTY0ZWItYzcyOC00ZTQ5LTllZjYtZGEzNDQ3OGIxY2E4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/bad.boys_.for_.life_.2020.1080p.web-dl.6ch.rarbg_.mrmovie.mp4_20200402_181218.641.jpg" alt=""></div>
+                
+            </div>
+         </div>
+        <!-- Swiper mobile -->
+        
+        <div class="swiper_mobile">
+            <h1>Каталог</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="col-lg-3">
+                        <div class="cards">
+                            <div class="cards_item">
+                                <img src="img/wath.jpg" alt="">
+                                <span class="cards_info">
+                                    <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                    <span class="item__price">150 000 $</span>
+                                </span>
+                                <button type="button" class="item__like" data-product="1">
+                                    <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                    </svg>
+                                </button>
+                                <button type="button" class="basket_item" data-basket="1" >
+                                    <span class="basket_text">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-3">
+                        <div class="cards">
+                            <div class="cards_item">
+                                <img src="img/wath.jpg" alt="">
+                                <span class="cards_info">
+                                    <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                    <span class="item__price">150 000 $</span>
+                                </span>
+                                <button type="button" class="item__like" data-product="2">
+                                    <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                    </svg>
+                                </button>
+                                <button type="button" class="basket_item" data-basket="2" >
+                                    <span class="basket_text">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-3">
+                        <div class="cards">
+                            <div class="cards_item">
+                                <img src="img/wath.jpg" alt="">
+                                <span class="cards_info">
+                                    <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                    <span class="item__price">150 000 $</span>
+                                </span>
+                                <button type="button" class="item__like" data-product="3">
+                                    <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                    </svg>
+                                </button>
+                                <button type="button" class="basket_item" data-basket="3" >
+                                    <span class="basket_text">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-3">
+                        <div class="cards">
+                            <div class="cards_item">
+                                <img src="img/wath.jpg" alt="">
+                                <span class="cards_info">
+                                    <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                    <span class="item__price">150 000 $</span>
+                                </span>
+                                <button type="button" class="item__like" data-product="4">
+                                    <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                    </svg>
+                                </button>
+                                <button type="button" class="basket_item" data-basket="4" >
+                                    <span class="basket_text">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-3">
+                        <div class="cards">
+                            <div class="cards_item">
+                                <img src="img/wath.jpg" alt="">
+                                <span class="cards_info">
+                                    <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                    <span class="item__price">150 000 $</span>
+                                </span>
+                                <button type="button" class="item__like" data-product="5">
+                                    <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                    </svg>
+                                </button>
+                                <button type="button" class="basket_item" data-basket="5" >
+                                    <span class="basket_text">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-3">
+                        <div class="cards">
+                            <div class="cards_item">
+                                <img src="img/wath.jpg" alt="">
+                                <span class="cards_info">
+                                    <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                    <span class="item__price">150 000 $</span>
+                                </span>
+                                <button type="button" class="item__like" data-product="6">
+                                    <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                    </svg>
+                                </button>
+                                <button type="button" class="basket_item" data-basket="6" >
+                                    <span class="basket_text">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-3">
+                        <div class="cards">
+                            <div class="cards_item">
+                                <img src="img/wath.jpg" alt="">
+                                <span class="cards_info">
+                                    <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                    <span class="item__price">150 000 $</span>
+                                </span>
+                                <button type="button" class="item__like" data-product="7">
+                                    <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                    </svg>
+                                </button>
+                                <button type="button" class="basket_item" data-basket="7" >
+                                    <span class="basket_text">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+              <!-- Swiper mobile end -->
+        </div>
+        <section class="body">
+            <div class="container">
+                <div class="row">
+                    <div class="col main">
+                        <h1>Каталог</h1>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="1">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="1" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="2">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="2" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="3">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="3" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="4">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="4" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row margin">
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="5">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="5" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="6">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="6" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="7">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="7" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="cards">
+                                    <div class="cards_item">
+                                        <img src="img/wath.jpg" alt="">
+                                        <span class="cards_info">
+                                            <span class="item__title">AET REMOULD RICHARD MILLE <br> SAPPHIRE COLLECTION "A55 BLUE" <br> RM055</span>
+                                            <span class="item__price">150 000 $</span>
+                                        </span>
+                                        <button type="button" class="item__like" data-product="8">
+                                            <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4629 4.97148L14.9964 5.51284L15.5306 4.97219L17.7185 2.75784L18.2578 2.26695L18.8321 1.8464L19.4419 1.48574L20.0851 1.19613L20.7575 0.977296L21.4535 0.827315L22.1542 0.75H22.8547L23.5581 0.827315L24.2506 0.977112L24.9204 1.19595L25.5652 1.48632L26.18 1.84682L26.7504 2.2664L27.2756 2.74449L27.7491 3.27729L28.1688 3.85698L28.5195 4.476L28.8087 5.13405L29.0307 5.81587L29.1758 6.51577L29.25 7.22871V7.94927L29.1758 8.6649L29.0308 9.36169L28.8087 10.0438L28.5198 10.7012L28.1688 11.318L27.7486 11.9012L27.2624 12.4482L14.9972 24.8612L2.73622 12.4468L2.24584 11.9012L1.83228 11.32L1.48025 10.7012L1.19126 10.0438L0.969236 9.36168L0.824154 8.6649L0.75 7.94927V7.22871L0.824154 6.51576L0.969325 5.81588L1.19126 5.13404L1.48053 4.47601L1.83228 3.85502L2.24529 3.27729L2.72288 2.74588L3.2496 2.26639L3.82054 1.8464L4.43296 1.48574L5.07354 1.19613L5.74859 0.977296L6.44193 0.827315L7.14528 0.75H7.84577L8.54649 0.827315L9.24205 0.977205L9.91156 1.19595L10.5558 1.48603L11.1684 1.84682L11.7422 2.26695L12.2811 2.75751L14.4629 4.97148Z" stroke="black" stroke-width="1.5"></path>
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="basket_item" data-basket="8" >
+                                            <span class="basket_text">Заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="wath_more">
+                            <span class="more_text">Показать ещё...</span>
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <footer>
+                <a href="#!" class="back_to_top">
+                    <img src="img/roll_up.svg" alt="">
+                </a>
+                <div class="footer-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="footer_logo">
+                                    <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="footer_link">
+                                    <h5>Меню</h5>
+                                    <nav>
+                                        <ul class="footer_list">
+                                            <li class="footer-list_item">
+                                                <a href="#!">Оценить</a>
+                                            </li>
+                                            <li class="footer-list_item">
+                                                <a class="white" href="#!">Продать</a>
+                                            </li>
+                                            <li class="footer-list_item">
+                                                <a href="#!">Под заказ</a>
+                                            </li>
+                                            <li class="footer-list_item">
+                                                <a href="#!">Trade-in</a>
+                                            </li>
+                                            <li class="footer-list_item">
+                                                <a href="#!">Каталог</a>
+                                            </li>
+                                            <li class="footer-list_item">
+                                                <a href="#!">Контакты</a>
+                                            </li>
+                                        </ul> 
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 footer_contacts">
+                                <h5>Контакты</h5>
+                                <div class="footer_number">
+                                    <div class="div">
+                                        <img src="img/Telephone.svg" alt="">
+                                        <a href="tel:+7 903 672 26 22">+7 903 672 26 22</a>
+                                    </div>
+                                    <a href="tel:+7 915 144 18 64" class="margin_footer">+7 915 144 18 64</a>
+                                </div>
+                                <div class="footer-mail">
+                                    <img src="img/Sobaka 1.svg" alt="">
+                                    <a href="mailto:info@lomard-time.ru">info@lomard-time.ru</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mobile_h5">
+                                <h5>Мы в социальных сетях</h5>
+                                <div class="div">
+                                    <div class="footer_social">
+                                        <a href="https://vk.com/honey_dev"><img src="img/telega.svg" alt=""></a>
+                                        <a href="https://vk.com/honey_dev"><img src="img/Watsap.svg" alt=""></a>
+                                        <a href="https://vk.com/honey_dev"><img src="img/watsap_2.svg" alt=""></a>
+                                        <a href="https://vk.com/honey_dev"><img src="img/instagramm.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="gmail">
+                                    <h5>Подписаться на рассылку:</h5>
+                                    <form action="">
+                                        <input type="text" class="footer_searh" placeholder="Ваша электронная почта">
+                                        <button class="footer_button">Подписаться</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="podderzhka">
+                            <a href="#!">
+                                <span>Разработка сайта-</span>
+                                <img src="img/fox 1.svg" alt="">
+                                <span>FoxyLand</span>
+                            </a>
+                        </div>
+                        <a href="favorites.html" class="my_favorites">Мне понравилось</a>
+                        <a href="favorites.html" class="my_favorites-mobile">
+                            <img src="img/RedLike.svg" alt="" class="modile_like">
+                        </a>
+                    </div>
+                    
+                </div>
+            </footer>
+        </section>
+       
+        
+        
+   
+    
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
